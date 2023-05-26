@@ -2,34 +2,10 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/8.1 Bench/src" isTestSource="false" packagePrefix="emgiezet\" />
-      <sourceFolder url="file://$MODULE_DIR$/8.1 Bench/tests" isTestSource="true" packagePrefix="emgiezet\Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/8.1/symfony/src" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/8.1/symfony/tests" isTestSource="true" packagePrefix="App\Tests\" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/doctrine/annotations" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/doctrine/deprecations" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/doctrine/lexer" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/phpbench/container" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/phpbench/dom" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/phpbench/phpbench" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/psr/cache" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/psr/container" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/psr/log" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/seld/jsonlint" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/console" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/deprecation-contracts" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/filesystem" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/finder" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/options-resolver" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/polyfill-ctype" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/polyfill-intl-grapheme" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/polyfill-intl-normalizer" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/polyfill-mbstring" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/process" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/service-contracts" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/symfony/string" />
-      <excludeFolder url="file://$MODULE_DIR$/8.1 Bench/vendor/webmozart/glob" />
+      <sourceFolder url="file://$MODULE_DIR$/benchmarks/src" isTestSource="false" packagePrefix="emgiezet\" />
+      <sourceFolder url="file://$MODULE_DIR$/benchmarks/tests" isTestSource="true" packagePrefix="emgiezet\Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/8.1/symfony/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/8.1/symfony/vendor/dama/doctrine-test-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/8.1/symfony/vendor/dflydev/dot-access-data" />
@@ -141,6 +117,30 @@
       <excludeFolder url="file://$MODULE_DIR$/8.1/symfony/vendor/twig/intl-extra" />
       <excludeFolder url="file://$MODULE_DIR$/8.1/symfony/vendor/twig/markdown-extra" />
       <excludeFolder url="file://$MODULE_DIR$/8.1/symfony/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/phpbench/container" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/phpbench/dom" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/phpbench/phpbench" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/seld/jsonlint" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/options-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/benchmarks/vendor/webmozart/glob" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
