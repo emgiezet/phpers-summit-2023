@@ -1,3 +1,4 @@
+./.idea
 
 /symfony-demo-app/8.1/symfony/var/cache/*
 /symfony-demo-app/8.1/symfony/var/sessions/*
