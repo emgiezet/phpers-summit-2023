@@ -1,28 +1,52 @@
-### Symfony template
-# Cache, session files and logs (Symfony3)
+
 /symfony-demo-app/8.1/symfony/var/cache/*
-/symfony-demo-app/8.1/symfony/var/logs/*
 /symfony-demo-app/8.1/symfony/var/sessions/*
 !symfony-demo-app/8.1/symfony/var/cache/.gitkeep
-!symfony-demo-app/8.1/symfony/var/logs/.gitkeep
 !symfony-demo-app/8.1/symfony/var/sessions/.gitkeep
-
-# Logs (Symfony4)
 /symfony-demo-app/8.1/symfony/var/log/*
 !symfony-demo-app/8.1/symfony/var/log/.gitkeep
-
-# Managed by Composer
-
 /symfony-demo-app/8.1/symfony/var/bootstrap.php.cache
 /symfony-demo-app/8.1/symfony/bin/*
 !/symfony-demo-app/8.1/symfony/bin/console
 !/symfony-demo-app/8.1/symfony/bin/symfony_requirements
 /symfony-demo-app/8.1/symfony/vendor/
 
-# Assets and user uploads
-/web/bundles/
-/web/uploads/
+/symfony-demo-app/8.1-opcache-opcache/symfony/var/cache/*
+/symfony-demo-app/8.1-opcache/symfony/var/sessions/*
+!symfony-demo-app/8.1-opcache/symfony/var/cache/.gitkeep
+!symfony-demo-app/8.1-opcache/symfony/var/sessions/.gitkeep
+/symfony-demo-app/8.1-opcache/symfony/var/log/*
+!symfony-demo-app/8.1-opcache/symfony/var/log/.gitkeep
+/symfony-demo-app/8.1-opcache/symfony/var/bootstrap.php.cache
+/symfony-demo-app/8.1-opcache/symfony/bin/*
+!/symfony-demo-app/8.1-opcache/symfony/bin/console
+!/symfony-demo-app/8.1-opcache/symfony/bin/symfony_requirements
+/symfony-demo-app/8.1-opcache/symfony/vendor/
 
+
+/symfony-demo-app/8.1-opcache-jit/symfony/var/cache/*
+/symfony-demo-app/8.1-opcache-jit/symfony/var/sessions/*
+!symfony-demo-app/8.1-opcache-jit/symfony/var/cache/.gitkeep
+!symfony-demo-app/8.1-opcache-jit/symfony/var/sessions/.gitkeep
+/symfony-demo-app/8.1-opcache-jit/symfony/var/log/*
+!symfony-demo-app/8.1-opcache-jit/symfony/var/log/.gitkeep
+/symfony-demo-app/8.1-opcache-jit/symfony/var/bootstrap.php.cache
+/symfony-demo-app/8.1-opcache-jit/symfony/bin/*
+!/symfony-demo-app/8.1-opcache-jit/symfony/bin/console
+!/symfony-demo-app/8.1-opcache-jit/symfony/bin/symfony_requirements
+/symfony-demo-app/8.1-opcache-jit/symfony/vendor/
+
+/symfony-demo-app/8.2-opcache-jit/symfony/var/cache/*
+/symfony-demo-app/8.2-opcache-jit/symfony/var/sessions/*
+!symfony-demo-app/8.2-opcache-jit/symfony/var/cache/.gitkeep
+!symfony-demo-app/8.2-opcache-jit/symfony/var/sessions/.gitkeep
+/symfony-demo-app/8.2-opcache-jit/symfony/var/log/*
+!symfony-demo-app/8.2-opcache-jit/symfony/var/log/.gitkeep
+/symfony-demo-app/8.2-opcache-jit/symfony/var/bootstrap.php.cache
+/symfony-demo-app/8.2-opcache-jit/symfony/bin/*
+!/symfony-demo-app/8.2-opcache-jit/symfony/bin/console
+!/symfony-demo-app/8.2-opcache-jit/symfony/bin/symfony_requirements
+/symfony-demo-app/8.2-opcache-jit/symfony/vendor/
 # PHPUnit
 /app/phpunit.xml
 /phpunit.xml
