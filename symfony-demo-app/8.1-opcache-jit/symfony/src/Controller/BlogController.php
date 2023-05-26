@@ -50,12 +50,13 @@ final class BlogController extends AbstractController
     #[Cache(smaxage: 10)]
     public function index(Request $request, int $page, string $_format, PostRepository $posts, TagRepository $tags): Response
     {
+        xhprof_enable(XHPROF_FLAGS_MEMORY + XHPROF_FLAGS_CPU);
         $tag = null;
         if ($request->query->has('tag')) {
             $tag = $tags->findOneBy(['name' => $request->query->get('tag')]);
         }
         $latestPosts = $posts->findLatest($page, $tag);
-
+        file_put_contents('/profiles/'.time().'.application.xhprof', serialize(xhprof_disable()));
         // Every template name also has two extensions that specify the format and
         // engine for that template.
         // See https://symfony.com/doc/current/templates.html#template-naming

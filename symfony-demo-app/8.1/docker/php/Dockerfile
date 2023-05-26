@@ -51,12 +51,12 @@ RUN ln -snf /usr/share/zoneinfo/${TIMEZONE} /etc/localtime && echo ${TIMEZONE} >
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 
 WORKDIR /var/www/symfony
-#RUN /usr/bin/composer install \
-#        --no-progress \
-#        --no-interaction \
-#        --no-dev \
-#        --optimize-autoloader \
-#        --prefer-dist \
-#	&& chmod -R 777 /var \
-#	&& rm -rf /var/cache/* \
-#	&& rm -rf /var/logs/*
+RUN /usr/bin/composer install \
+        --no-progress \
+        --no-interaction \
+        --no-dev \
+        --optimize-autoloader \
+        --prefer-dist \
+	&& chmod -R 777 /var \
+	&& rm -rf /var/cache/* \
+	&& rm -rf /var/logs/*
