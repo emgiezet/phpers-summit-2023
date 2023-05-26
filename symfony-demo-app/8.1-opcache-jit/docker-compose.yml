@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+    db:
+        image: mysql:8.0.20
+        command: --default-authentication-plugin=mysql_native_password
+        volumes:
+            - "db_app:/var/lib/mysql"
+        environment:
+            MYSQL_ROOT_PASSWORD: oink
+            MYSQL_DATABASE: app_db
+            MYSQL_USER: app_user
+            MYSQL_PASSWORD: helloworld
+        ports:
+            - 3306:3306
+        networks:
+            - symfony
+    php:
+        build:
+            context: .
+            dockerfile: docker/php/Dockerfile
+            args:
+                TIMEZONE: ${TIMEZONE}
+        volumes:
+            - ./symfony/:/var/www/symfony/
+            - xhprof:/var/xhprof/xhprof-2.3.2
+        networks:
+            - symfony
+    nginx:
+        build:
+            context: .
+            dockerfile: docker/nginx/Dockerfile
+        volumes:
+            - xhprof:/var/xhprof/xhprof-2.3.2
+            - ./symfony/:/var/www/symfony/
+        ports:
+            - '80:80'
+            - '8081:8081'
+        networks:
+            - symfony
+
+volumes:
+    db_app:
+    xhprof:
+
+networks:
+    symfony:
