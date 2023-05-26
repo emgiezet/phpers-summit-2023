@@ -1,0 +1,18 @@
+{
+    "autoload": {
+        "psr-4": {
+            "emgiezet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "emgiezet\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpbench/phpbench": "^1.2",
+        "ext-bcmath": "*"
+    }
+}
